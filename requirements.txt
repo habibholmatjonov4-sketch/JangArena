@@ -1,4 +1,4 @@
-aiogram==3.3.0
-python-dotenv==1.0.0
-flask==3.0.0
-aiofiles==23.2.1
+aiogram==3.17.0
+python-dotenv==1.0.1
+Flask==3.1.0
+pydantic==2.10.4   # yoki kerak bo'lmasa olib tashlang
