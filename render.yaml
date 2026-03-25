@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: jangarena
+    runtime: python
+    repo: https://github.com/habibholmatjonov4-sketch/JangArena
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.8
+      - key: BOT_TOKEN
+        sync: false
+      - key: ADMIN_IDS
+        sync: false
